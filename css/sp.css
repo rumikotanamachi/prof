@@ -1,0 +1,39 @@
+/* CSS Document */
+@media (min-width: 641px) and (max-width: 926px) {
+  body, .mainvisual_wrap, #mainvisual, header, footer {
+    min-width: 1300px;
+  }
+  .tgl_menu_list ul li.nav_mega_menu .mega_menu_wrap {
+    width: 1300px;
+  }
+  .sp_inline {
+    display: inline !important
+  }
+}
+@media screen and (max-width:640px) {
+  body {
+    font-size: 14px;
+  }
+  body, #mainvisual .inner, header, footer {
+    min-width: 100%;
+  }
+  body.nav-open {
+    overflow: hidden !important;
+  }
+  h2 {
+    margin-bottom: 30px;
+  }
+  .sp_inline {
+    display: inline !important
+  }
+  .prof {
+    display: initial;
+  }
+.a-img {
+    margin-bottom: 0px;
+}
+  .about-image {
+    width: 100%;
+	margin-bottom: 30px;
+  }
+}
