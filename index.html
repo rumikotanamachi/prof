@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="ja"><head>
+<meta charset="UTF-8">
+
+<!-- ↓レスポンシブ対応 -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+<!-- ↓BootStrap対応 -->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+<<link rel="stylesheet" href=""
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- ↓css読み込み -->
+
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/sp.css">
+<!-- ↓ロゴサイト読み込み --> 
+
+<script src="https://kit.fontawesome.com/a3c0f64a62.js" crossorigin="anonymous"></script> 
+
+<!-- ↓jQuery --> 
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+
+<!-- ↓form.run --> 
+
+<script src="https://sdk.form.run/js/v2/formrun.js"></script>
+<title>Portfolio</title>
+
+<body>
+
+<!-- ↓ヘッダーナビ(PC・ipad) -->
+
+<section class="head-nav" id="home">
+  <div class="hn">
+    <h1><a href="">Portfolio</a></h1>
+    <ul>
+      <li class="hn-li"><a href="#ab">Home</a></li>
+      <li class="hn-li"><a href="#ab">About</a></li>
+      <li class="hn-li"><a href="#po">Portfolio</a></li>
+      <li class="hn-li"><a href="#co">Contact</a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ↓ヘッダーナビ（スマホ） -->
+
+<header class="header">
+  <div class="hd">
+    <h1><a href="">Portfolio</a></h1>
+    
+    <!-- ↓チェックボックス、常に表示、nav-unshownなら非表示に -->
+    
+    <input type="checkbox" id="nav-input" class="nav-invisible">
+    
+    <!-- ↓チェックボックスのラベル -->
+    
+    <label id="nav-open" for="nav-input"> <span></span> </label>
+    <div id="nav-contents"> 
+      
+      <!-- ↑表示される中身 -->
+      
+      <ul>
+        <li class="hn-li"><a href="#ab">Home</a></li>
+        <li class="hn-li"><a href="#ab">About</a></li>
+        <li class="hn-li"><a href="#po">Portfolio</a></li>
+        <li class="hn-li"><a href="#co">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+<main>
+<!--<section class="mainvisual"> <img class="hi-img" src="image/bk.jpg" alt="メインビジュアル画像"> </section>
+--><section id="ab" class="about">
+<h2 class="text-center">ABOUT ME</h2>
+<div class="container">
+<div class="prof">
+  <div class=" about-image"> <img class="a-img" src="image/pf.png" alt="Profile画像">
+    <div class="name">
+      <p><span class="bold">氏名</span>　棚町　瑠美子</p>
+    </div>
+  </div>
+  <div class="  profile">
+
+    <div class="prof_box">
+      <h3 class="tit02">資格</h3>
+      <table class="tb02">
+        <tbody>
+          <tr>
+            <th>2006年3月</th>
+            <td>普通自動車第一種免許</td>
+          </tr>
+          <tr>
+            <th>2008年4月</th>
+            <td>ビジネスキャリア検定　営業3級</td>
+          </tr>
+          <tr>
+            <th>2018年3月</th>
+            <td>コンピュータサービス技能評価試験　ワープロ部門　2級</td>
+          </tr>
+          <tr>
+            <th>2019年6月</th>
+            <td>コンピュータサービス技能評価試験　表計算部門　2級</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="prof_box">
+      <h3 class="tit02">Skill</h3>
+      <div class="sk-content"><i class="fab fa-html5"></i>
+        <p>HTML</p>
+      </div>
+      <div class="sk-content"><i class="fab fa-css3-alt"></i>
+        <p>CSS</p>
+      </div>
+      <div class="sk-content"><i class="fab fa-bootstrap"></i>
+        <p>bootstrap</p>
+      </div>
+      <div class="sk-content"><i class="fab fa-js-square"></i>
+        <p>jQuery</p>
+      </div>
+      <div class="sk-content"><i class="fab fa-php"></i>
+        <p>PHP</p>
+      </div>
+      <div class="sk-content"><i class="fab fa-github"></i>
+        <p>GitHub</p>
+      </div>
+      <div class="sk-content"><i class="fa fa-paint-brush" style="font-size:35px"></i>
+        <p>Photoshop</p>
+      </div>
+      <div class="sk-content"><i class="fa fa-paint-brush" style="font-size:35px"></i>
+        <p>Illustrator</p>
+      </div>		
+    </div>
+  </div>
+</div>
+</section>
+<section id="po" class="portfolio">
+<h2 class="text-center">Portfolio</h2>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+  <div class="pf-content"> <img class="pf-img" src="image/eminy.png" alt="自作ECサイト">
+    <dl>
+      <dt>自作ECサイト<br>
+        【使用言語】 </dt>
+      <dd>PHP,bootstrap,MySQL<br>スマホサイズのみ対応しています。</dd>
+
+      <dd><a id="btn-airbnb" class="btn" href="http://newgga.lolipop.io/">ページを開く</a></dd>
+    </dl>
+  </div>
+</div>
+<div class="col-md-4">
+<div class="pf-content">
+<img class="pf-img" src="image/pokemon.png" alt="ポケモンルーレット">
+<dl>
+<dt>ポケモンルーレット<br>
+  【使用言語】 </dt>
+<dd>Javascript,CSS<br>スマホサイズのみ対応しています。</dd>
+<dd><a id="btn-airbnb" class="btn"
+
+                                    href="https://rumikotanamachi.github.io/pokemon_javascript/">ページを開く</a></dd>
+</div>
+</div>
+<div class="col-md-4">
+  <div class="pf-content"> <img class="pf-img" src="image/react.png" alt="React練習">
+    <dl>
+      <dt>React練習<br>
+        【使用言語】 </dt>
+      <dd>React,Google books API<br>スマホサイズのみ対応しています。</dd>
+      <dd><a id="btn-airbnb" class="btn"
+
+                                    href="https://infallible-pare-1d2237.netlify.app">ページを開く</a></dd>
+    </dl>
+  </div>
+</div>
+</div>
+</div>
+</section>
+<section id="co" class="contact">
+  <h2 class="text-center">Contact</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="contact-area">
+          <form class="formrun" action="" method="post">
+            <div class="contact-content">
+              <label>お名前 [必須]</label>
+              <br />
+              <input name="お名前" type="text" data-formrun-type="name" data-formrun-required="">
+              <div class="ng" data-formrun-show-if-error="お名前">お名前を入力してください</div>
+            </div>
+            <div class="contact-content">
+              <label>メールアドレス [必須]</label>
+              <br />
+              <input name="メールアドレス" type="text" data-formrun-type="email"
+
+                                        data-formrun-required="">
+              <div class="ng" data-formrun-show-if-error="メールアドレス">メールアドレスを正しく入力してください</div>
+            </div>
+            <div class="contact-content">
+              <label>題名 [必須]</label>
+              <br />
+              <input name="題名" type="text" data-formrun-type="title" data-formrun-required="">
+              <div class="ng" data-formrun-show-if-error="題名">題名を入力してください</div>
+            </div>
+            <div class="contact-content">
+              <label>お問い合わせ [必須]</label>
+              <br />
+              <textarea cols="30" name="お問い合わせ" rows="10" data-formrun-required=""></textarea>
+              <div class="ng" data-formrun-show-if-error="お問い合わせ">お問い合わせを入力してください</div>
+            </div>
+            <div class="_formrun_gotcha">
+              <style media="screen">
+
+                                        ._formrun_gotcha {
+
+                                            position: absolute !important;
+
+                                            height: 1px;
+
+                                            width: 1px;
+
+                                            overflow: hidden;
+
+                                        }
+
+                                    </style>
+              <p>
+                <label for="_formrun_gotcha">If you are a human, ignore this field</label>
+                <br />
+                <input id="_formrun_gotcha" tabindex="-1" name="_formrun_gotcha" type="text">
+            </div>
+            <p>
+              <button class="btn" type="submit" data-formrun-error-text="未入力の項目があります"
+
+                                        data-formrun-submitting-text="送信中...">送信</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ↓フッター -->
+
+<footer class="footer">
+  <div class="f-copyright">
+    <p>© Copyright - <a href="">portfolio</a>, 2020 All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- ↓トップへ戻る -->
+
+<div id="back"><a href="#"></a></div>
+</body>
+</html>
